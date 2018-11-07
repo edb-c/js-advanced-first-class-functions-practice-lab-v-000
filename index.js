@@ -1,15 +1,15 @@
-#logDriverNames()
-#logs the name of each driver ‣
-#logDriversByHometown()
-#logs the name of each driver whose hometown matches the #passed-in argument ‣
-#driversByRevenue()
-#uses the sort() method to return a new array of drivers ordered by revenue (lowest to highest) ‣
-driversByName()
-uses the sort() method to return a new array of drivers ordered alphabetically by name (A to Z) ‣
-totalRevenue()
-uses the reduce() method to sum the revenue of every driver and return the total ‣
-averageRevenue()
-calculates the average revenue across all drivers
+//logDriverNames()
+//logs the name of each driver ‣
+//logDriversByHometown()
+//logs the name of each driver whose hometown matches the #passed-in argument ‣
+//driversByRevenue()
+//uses the sort() method to return a new array of drivers ordered by revenue (lowest to highest) ‣
+//driversByName()
+//uses the sort() method to return a new array of drivers ordered alphabetically by name (A to Z) ‣
+//totalRevenue()
+//uses the reduce() method to sum the revenue of every driver and return the total ‣
+//averageRevenue()
+//calculates the average revenue across all drivers
 const logDriverNames = function (drivers) {
   drivers.forEach(function (driver) {
     console.log(driver.name);
